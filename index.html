@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>bliblil</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+    * {
+        margin: 0;
+        padding: 0; 
+    }
+    header {
+        background-image: url(./imgs/headbg.png);
+        background-position: -260px;
+        font-size: 13px;
+        height: 180px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .header_head {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0 200px;
+        background: rgba(255, 255, 255, 0.3); 
+    }
+    .header_head_blur {
+        position: absolute;
+            float: left;
+            width: 100%;
+            height: 41px;
+            background-image: url(./imgs/headbg.png); 
+            background-position: center;
+            background-size: cover;
+            filter: blur(4px);
+        }
+    .header_right {
+        display: flex;
+        flex-direction: row;
+    }
+    .header_head ul {
+        display: flex;
+        flex-direction: row;
+        list-style-type: none;
+        margin: 0 0;
+    }
+    .header_head ul li {
+        margin: 0 0;
+        line-height: 42px;
+        padding: 0 5px;
+        cursor: pointer;
+    }
+    .header_head ul li:hover {
+        background:rgba(255, 255, 255, 0.4); 
+    }
+    .header_nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color: white;
+        padding: 0 200px;
+    }
+    .header_nav ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        list-style-type: none;
+    }
+    .header_nav ul li {
+        margin-left: 20px;
+        cursor: pointer;
+    }
+    .contribute {
+        background-color: #da5380;
+        color: white;
+        font-size: 15px;
+        display: flex;
+        align-items: center;
+        height: 45px;
+        border-radius: 5px;
+    }
+    .header_mid {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        padding-right: 150px;
+    }
+    .rank_list {
+        display: flex;
+        align-items: center;
+        background: rgba(255, 255, 255, 0.8);
+        color: #f25d8e;
+        border-radius: 3px;
+    }
+    .search_box {
+        width: 265px;
+        height: 30px;
+        border-radius: 5px;
+        border: none;
+        background: rgba(255, 255, 255, 0.8);
+        margin-left: 2px;
+        padding-left: 10px;
+    }
+    .search_box:hover {
+        background: white;
+    }
+
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="header_head_blur"></div>
+        <div class="header_head">
+            <ul class="main_nav">
+                <li>主站</li>
+                <li>画友</li>
+                <li>游戏中心</li>
+                <li>直播</li>
+                <li>会员购</li>
+                <li>BML</li>
+                <li>BW</li>
+                <li>下载APP</li>
+            </ul>
+            <div class="header_right">
+                <div class="user_avatar">111</div>
+                <ul class="user_info">
+                    <li>大会员</li>
+                    <li>消息</li>
+                    <li>动态</li>
+                    <li>稍后再看</li>
+                    <li>收藏夹</li>
+                    <li>历史</li>
+                </ul>
+                <div class="contribute"><span>111-投稿</span></div>
+            </div>
+        </div>
+        <div class="header_mid">
+            <div class="rank_list"><span>排行榜</span></div>
+            <input type="text" name="search_box" class="search_box" placeholder="走！跟着十元吃肉去~">
+        </div>
+        <div class="header_nav">
+            <ul>
+                <li>首页</li>
+                <li>动画</li>
+                <li>番剧</li>
+                <li>国创</li>
+                <li>音乐</li>
+                <li>舞蹈</li>
+                <li>游戏</li>
+                <li>科技</li>
+                <li>生活</li>
+                <li>鬼畜</li>
+                <li>时尚</li>
+                <li>广告</li>
+                <li>娱乐</li>
+                <li>影视</li>
+                <li>放映厅</li>
+                <li>专栏</li>
+                <li>广场</li>
+                <li>直播</li>
+                <li>小黑屋</li>
+            </ul>
+            <div class="nav_gif"><span>111111</span></div>
+        </div>
+    </header>
+    <div class="container"></div>
+    <nav></nav>
+    <footer></footer>
+</body>
+</html>
